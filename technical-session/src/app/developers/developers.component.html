@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-3"><input placeholder="First Name" class="form-control" type="text" [(ngModel)]="developer.firstName"></div>
+    <div class="col-md-3"><input placeholder="Last Name" class="form-control" type="text" [(ngModel)]="developer.lastName"></div>
+    <div class="col-md-3"><input placeholder="Number Of Bugs" class="form-control" type="text" [(ngModel)]="developer.numberOfBugs"></div>
+    <div class="col-md-3"><button class="btn btn-primary" (click)="saveDeveloper()">Save Developer</button></div>
+</div>
+
+<div class="row table-header">
+    <div class="col-md-4">First Name</div>
+    <div class="col-md-4">Last Name</div>
+    <div class="col-md-4">Number Of Bugs</div>
+</div>
+
+<app-developer [developer]="developer"
+               [developerIndex]="index"
+               (onDeveloperDelete)="deleteDeveloper($event)"
+               *ngFor="let developer of developersList; let index = index">
+</app-developer>
