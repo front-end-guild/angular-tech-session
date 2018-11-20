@@ -1,6 +1,6 @@
 # TechnicalSession
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
+Follow the medium article in order to do it yourself: https://medium.com/@danieltamirr/tufin-angular-technical-session-eb0ef49fb02d
 
 ## Development server
 
