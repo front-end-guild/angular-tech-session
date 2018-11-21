@@ -1,4 +1,4 @@
-# TechnicalSession
+# Angular - Routing , Components, Binding Technical Session
 
 Follow the medium article in order to do it yourself: https://medium.com/@danieltamirr/tufin-angular-technical-session-eb0ef49fb02d
 
